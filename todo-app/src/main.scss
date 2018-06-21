@@ -1,0 +1,22 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+#app .row>.col:not(.header),
+#app .row>[class^=col-] {
+    padding-top: 12px;
+    padding-top: .75rem;
+    padding-bottom: 12px;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+ul.status {
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0;
+}
